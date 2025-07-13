@@ -1,0 +1,16 @@
+.error-ui {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+
+  min-height: calc(100vh - 30rem);
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #765;
+    text-align: center;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format:fix": "prettier --write .",
+    "stylelint": "stylelint \"**/*.{css,scss}\"",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,js,jsx}": "eslint --fix",
+    "**/*.{css,scss}": "stylelint --fix",
+    "**/*.{ts,tsx,js,jsx,css,scss,md,json}": "prettier --write"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "sass": "^1.89.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-prettier": "^5.5.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "eslint-plugin-unicorn": "^59.0.1",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "stylelint": "^16.21.1",
+    "stylelint-config-clean-order": "^7.0.0",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "stylelint-order": "^7.0.0",
+    "stylelint-prettier": "^5.0.3",
+    "stylelint-scss": "^6.12.1",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.3"
+  }
+}

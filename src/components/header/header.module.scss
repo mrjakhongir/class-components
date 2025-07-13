@@ -1,0 +1,35 @@
+.header {
+  position: sticky;
+  top: 0;
+
+  padding: 2rem 0;
+
+  color: #333;
+
+  background-color: #f2f4f6;
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 4rem;
+    }
+
+    h1 {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+
+      font-size: 3.2rem;
+      line-height: 4rem;
+      color: #0072b1;
+    }
+  }
+
+  .header-search {
+    display: flex;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,22 @@
+.search-input {
+  overflow: hidden;
+  display: inline-flex;
+  gap: 1rem;
+  align-items: center;
+
+  padding-left: 1rem;
+  border: 1px solid #0072b1;
+  border-radius: 1rem;
+
+  background: #0072b1;
+
+  input {
+    padding: 1rem 2rem 1rem 0.5rem;
+    border: none;
+
+    font-size: 1.6rem;
+    line-height: 2rem;
+
+    outline: none;
+  }
+}
