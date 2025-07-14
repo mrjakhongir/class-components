@@ -19,6 +19,9 @@ class Header extends Component<HeaderProperties> {
 
   handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
     this.setState({ search: event.target.value });
+    if(!event.target.value){
+      localStorage.removeItem("search");
+    }
   };
 
   handleSearch = (event: ChangeEvent<HTMLFormElement>) => {
